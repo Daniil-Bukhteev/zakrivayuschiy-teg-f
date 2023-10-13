@@ -118,12 +118,12 @@
 }
 
 .card__title {
-  font-family:var(--Inter);
-  font-size: 18.5px;
-  font-weight: 700;
+  font-family: var(--Inter);
+  font-size: 18px;
   padding: 3px 24px 5px 10px;
   text-align: start;
   border-bottom: 2px solid var(--accent-color);
+  font-variation-settings: 'wght' var(--card-title-weight, 700);
 }
 
 .section {
@@ -194,9 +194,9 @@
 .card__text {
   font-family:var(--Inter);
   font-size: 18px;
-  font-weight: var(--font-weight);
   line-height: 21px;
   display: inline-block;
+  font-variation-settings: 'wght' var(--font-weight, 400);
 }
 
 .card__description {
